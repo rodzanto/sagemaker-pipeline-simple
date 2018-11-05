@@ -40,7 +40,7 @@ object_categories = ['ak47', 'american-flag', 'backpack', 'baseball-bat', 'baseb
 print ("\n")
 print ("Result: label - " + object_categories[index] + ", probability - " + str(result[index]))
 print(', '.join(object_categories))
-print(', '.join(results))
+print(', '.join(result))
 
 end = time.time()
 seconds = end - start
